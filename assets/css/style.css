@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(9, 24, 90);
+    background-image: url("../images/paisagem2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1200px 100%;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title1 {
+    display: flex;
+    color: #fff;
+    font-size: 50px;
+    margin-top: -40px;
+    text-shadow: 0px 2px 0px black;
+
+    
+}
+
+.title1 img {
+    width: 85px;
+    margin: 0px -40px -20px -30px;
+}
+
+.gohan1 img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.aboutgohan {
+    display: flex;
+    margin: 20px;
+    border: 5px solid orange;
+    background-color: rgb(0, 0, 32);
+}
+
+.textleft {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(197, 197, 197);
+    line-height: 20px;
+    letter-spacing: 1px;
+    width: 100%;
+
+}
+
+.textimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textimg img {
+    width: 120px;
+    margin: 20px;
+}
+
+.textright {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(197, 197, 197);
+    line-height: 20px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.h2_custom {
+    display: flex;
+    color: orange;
+}
+
+.textleft img {
+    width: 90px;
+    margin-left: -20px;
+}
+
+.textright img {
+    width:70px;
+    margin-right:20px;
+}
+
+.gohanfeats .h2_custom img {
+    width: 40px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.gohanfeats {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid orange;
+    background-color: rgb(0, 0, 32);
+    padding: 15px;
+    align-items: center;
+    
+}
+
+.eplist {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    font-size: large;
+
+}
+
+.row1 {
+    display: flex;
+}
+
+.row2 {
+    display: flex;
+}
+
+.eplist img {
+    width: 200px;
+    height: 180px;
+}
+
+.card h3 {
+    color: orange;
+    margin-bottom: 0px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: small;
+    letter-spacing: 1px;
+    justify-content: center;
+    background-color: rgb(9, 24, 90);
+    
+}
+
+address {
+    margin: 10px;
+}
+
+address a {
+    margin-left: 5px;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+@media (max-width:730px) {
+
+    .title1 {
+        font-size: 25px;
+        text-shadow: none;
+    }
+    .title1 img {
+        width: 40px;
+        margin: 0px -20px -10px -15px;
+    }
+
+    .gohan1 img {
+        width: 240px;
+    }
+
+    .aboutgohan {
+        flex-direction: column;
+    }
+
+    .textimg img {
+        width: 90px;
+    }
+
+    .row1, .row2 {
+        flex-direction: column;
+    }
+}
